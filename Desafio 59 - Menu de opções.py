@@ -1,3 +1,5 @@
+from time import sleep
+
 op = 0
 n1 = int(input('Valor 1: '))
 n2 = int(input('Valor 2: '))
@@ -22,5 +24,13 @@ while op!= 5:
     elif op == 4:
         n1 = int(input('Novo Valor 1: '))
         n2 = int(input('Novo valor 2: '))
+    elif op == 5: #apenas para correção de Bug
+        print('Finalizando...')
+        sleep(2)
     else:
         print('Opção Inválida! Tente novamente.')
+    print('='*15)
+    sleep(2)
+
+print('='*15)
+print('FIM DO PROGRAMA')
