@@ -1,7 +1,7 @@
 import random
 from time import sleep
 
-op =''
+op = ''
 j1 = 0
 j2 = 0
 while True:
@@ -10,9 +10,9 @@ while True:
     [ 2 ] Papel
     [ 3 ] Tesoura
     [ 0 ] PARAR DE JOGAR\n""")
-    palpite= int(input('Pedra, papel ou tesoura? \n\n'))
+    palpite = int(input('Pedra, papel ou tesoura? \n\n'))
     com = random.randint(1, 3)
-    if palpite !=0:
+    if palpite != 0:
         print('Jo')
         sleep(1)
         print('Ken')
@@ -29,7 +29,7 @@ while True:
     elif palpite == 1 and com == 2:
         print('Jogador: PEDRA\nComputador: PAPEL')
         print('Você perdeu! Papel vence Pedra')
-        j2 +=1
+        j2 += 1
     elif palpite == 1 and com == 3:
         print('Jogador: PEDRA\nComputador: TESOURA')
         print('Você Venceu! Pedra quebra Tesoura')
