@@ -1,5 +1,5 @@
 import datetime
-nascimento= 1
+nascimento = 1
 while True:
     nascimento = int(input('ano do Nascimento [0 para sair]: '))
 
