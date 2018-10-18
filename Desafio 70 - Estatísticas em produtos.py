@@ -8,6 +8,7 @@ while True:
     prec = float(input('Valor: R$ '))
     if totb == 0:
         totb = prec
+        prob = prod
     #total da compra
     tota += prec
     #total de produtos com valor maior que R$1000,00
