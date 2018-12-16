@@ -3,7 +3,7 @@ lista = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo', 25.00, 'T
 print(f"""{'='*35}
 {'LISTA DE PREÇOS':^35}
 {'='*35}""")
-for x in range (0, len(lista)):
+for x in range(0, len(lista)):
     if x % 2 == 0:
         #print(f'{lista[x]:.<30}', end="."') maneira 1
         print(f'{lista[x]:.<24}', end=".")
