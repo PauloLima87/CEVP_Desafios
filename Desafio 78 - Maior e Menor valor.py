@@ -10,6 +10,7 @@ for i in range(0, 5):
         if valor[i] < menor:
             menor = valor[i]
 
+print(f'\nf = {valor}\n')
 print(f"O Menor valor é {menor} nas posições ", end='')
 for a, b in enumerate(valor):
     if b == menor:
